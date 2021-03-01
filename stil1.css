@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+body{
+  background: #f2f2f2;
+}
+.zaglavlje {
+  box-sizing: border-box;
+}
+
+.zaglavlje-header h1 {
+  text-transform: uppercase;
+  font-family: 'PT Sans';
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.linija {
+  border: 1px solid black;
+  width: 330px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.zaglavlje-podnaslov {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.zaglavlje-header a {
+  text-decoration: none;
+  color: black;
+}
+
+.zaglavlje-header a:hover {
+  border-bottom: 1px solid black;
+  font-size: 17px;
+}
+
+.glavni {
+  box-sizing: border-box;
+  position: relative;
+}
+.glavni-podnaslov{
+  position: absolute;
+  left: 670px;
+  top: 240px;
+  font-size: 45px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+.glavni img{
+  width:600px;
+  height: 554px;
+  opacity: 0.4;
+  border: 0.5px solid grey;
+  padding: 10px;
+}
+.glavni-naslov{
+  font-family: 'PT sans';
+  text-align: center;
+  font-size: 30px;
+}
+.drugi h3{
+  font-family: 'PT sans';
+  text-align: center;
+  font-size: 25px;
+}
+.drugi a{
+  text-decoration: none;
+  color: black;
+}
+.drugi a:hover{
+  font-size: 30px;
+  padding: 10px;
+  border: 5px solid grey;
+  background-color: #d9d9d9;
+}
+.podnozje{
+  box-sizing: border-box;
+  position: relative;
+}
+.podnozje footer{
+  box-sizing: border-box;
+}
+.podnozje h2{
+  text-align: center;
+  font-family: 'PT sans';
+  margin-bottom: 10px;
+}
+.podnozje ul{
+  list-style-type: none;
+  position: absolute;
+  left: 780px;
+  display: inline-flex;
+}
+.podnozje ul li{
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.podnozje ul li a{
+  text-decoration: none;
+  color: black;
+  font-family: 'PT sans';
+  font-size: 15px;
+}
+.podnozje ul li a:hover{
+  font-size: 20px;
+  padding: 5px;
+  border: 4px solid yellow;
+  background-color: #ddff99;
+}
